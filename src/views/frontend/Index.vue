@@ -60,12 +60,7 @@ fetchData()
               <img :src="post.imageUrl" class="rounded-sm" />
             </a>
           </div>
-          <div class="flex items-center gap-x-4 text-xs">
-            <span class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 mt-5 font-medium text-gray-600 hover:bg-gray-100">
-              <time :datetime="post.createdAt" class="text-gray-500">{{ formatDateString(post.createdAt) }}</time>
-            </span>
-          </div>
-          <div class="group relative">
+          <div class="group relative mt-5">
             <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
               <a :href="post.url">
                 <span class="absolute inset-0" />

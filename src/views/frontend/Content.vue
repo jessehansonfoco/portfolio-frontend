@@ -75,8 +75,8 @@ fetchData()
               </a>
               <img v-else class="rounded-sm" :src="part.imageUrl" />
             </div>
-            <div class="pt-10 pb-10 pr-10 pl-10" v-else>
-              <p class="text-2xl font-medium" v-html="part.content"></p>
+            <div class="pt-10 pb-10 pr-10 pl-10 sm:pt-5 sm:pb-5 sm:pr-5 sm:pl-5" v-else>
+              <p class="text-xl font-medium" v-html="part.content"></p>
             </div>
           </div>
         </div>

@@ -75,6 +75,7 @@ function hideMessage() {
       <ButtonElement name="button" button-label="Save Post" :submits=true />
       <HiddenElement name="id" />
       <TextElement name="title" label="Page Title" placeholder="Page Title" />
+      <DateElement name="createdAt" label="Timestamp" />
       <TextElement name="slug" label="Page URL Slug" placeholder="lowercase-and-dashes" />
       <TextElement name="category" label="Category" placeholder="Javascript" />
       <TextElement name="shortDescription" label="Short Description" placeholder="a short description" />
